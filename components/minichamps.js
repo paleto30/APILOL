@@ -10,6 +10,8 @@ const showAllMiniChamps = () =>{
     ws.addEventListener("message",(e)=>{
         console.log("result:",e.data);
         document.querySelector("#minisF").innerHTML = e.data;
+
+        ws.terminate();
     })
 
 }
