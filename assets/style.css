@@ -15,3 +15,27 @@ body{
     background-size: cover;
     height: auto;
 }
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #07779c #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #060e1f;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #07779c;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }
